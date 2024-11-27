@@ -1,0 +1,279 @@
+#play3
+{width:250px;
+  height:100px;
+  position:absolute;
+  top:1700px;
+  left:350px;
+  font-size:65px;
+  font-weight:bolder;
+  border-radius:10%;
+  color:#111;
+  background:#39ff14;
+  box-shadow:0 0 50px #39ff14;
+}
+#cong1
+{ width:250px;
+  height:200px;
+}
+#show
+{ width:800px;
+  height:900px;
+  background-color:white;
+  position:absolute;
+  left:80px;
+  top:400px;
+  border-radius:20%;
+  border:10px solid black;
+  display:none;
+}
+#screen
+{width:500px;
+  height:400px;
+  border:20px solid black;
+  position:absolute;
+  top:230px;
+  background-color:grey;
+  left:130px;
+  display:none;
+}
+
+#box-5
+{ width:910px;
+  height:200px;
+  border:20px solid black ;
+  position:absolute;
+  top:1040px;
+  background-color:grey;
+  left:0px;
+}
+#box-4
+{ width:910px;
+  height:200px;
+  border:20px solid black;
+  position:absolute;
+  top:800px;
+  background-color:grey;
+  left:0px;
+}
+#box-3
+{ width:910px;
+  height:200px;
+  border:20px solid black;
+  position:absolute;
+  top:560px;
+  background-color:grey;
+  left:0px;
+}
+
+#box-2
+{ width:910px;
+  height:200px;
+  border:20px solid black;
+  position:absolute;
+  top:320px;
+  background-color:grey;
+  left:0px;
+}
+
+#b1,#b2,#b3,#b4,#b5
+{ position:absolute;
+  top:30px;
+  left:655px;
+  width:250px;
+  height:100px;
+  border-radius:100px;
+  background-color:red;
+  border:2px solid red;
+}
+#c1,#c2,#c3,#c4,#c5
+{ position:absolute;
+  top:50px;
+  left:450px;
+  width:150px;
+  height:50px;
+  border-radius:100px;
+  background-color:white;
+}
+#box-1
+{ width:910px;
+  height:200px;
+  border:20px solid black;
+  position:absolute;
+  top:80px;
+  background-color:grey;
+}
+#title
+{ left:260px;
+  position:absolute;
+  font-size:65px;
+  top:-40px;
+}
+#title1
+{ left:170px;
+  position:absolute;
+  font-size:65px;
+  top:10px;
+}
+body
+{ background:url('Elections.jpg');
+  background-size:980px 1930px;
+  background-repeat:no-repeat;
+  height:1600px;
+}
+#container
+{ width:950px;
+  height:1350px;
+  position:absolute;
+  left:15px;
+  top:200px;
+  background-color:white;
+  border-radius:5%;
+  
+}
+#bjp,#cong,#cpim,#tmc,#aap
+{ width:150px;
+  height:150px;
+  position:absolute;
+  top:20px;
+  left:280px;
+  z-index:1;
+}
+#rao
+{width:350px;
+  height:350px;
+  position:absolute;
+  top:30px;
+  left:80px;
+}
+@media (min-width:1000px){
+  body
+{ background:url('Elections.jpg');
+  background-size:1780px 1930px;
+  background-repeat:no-repeat;
+  overflow-y:scroll;
+}
+#container
+{ width:900px;
+  height:580px;
+  position:absolute;
+  left:215px;
+  top:30px;
+  background-color:white;
+  border-radius:5%;
+}
+#box-1
+{ width:411px;
+  height:120px;
+  border:20px solid black;
+  position:absolute;
+  top:70px;
+  left:0px;
+  background-color:grey;
+}
+#box-2
+{ width:411px;
+  height:120px;
+  border:20px solid black;
+  position:absolute;
+  top:70px;
+  left:450px;
+  background-color:grey;
+}
+#box-3
+{ width:411px;
+  height:120px;
+  border:20px solid black;
+  position:absolute;
+  top:220px;
+  background-color:grey;
+}
+#box-4
+{ width:411px;
+  height:120px;
+  border:20px solid black;
+  position:absolute;
+  top:220px;
+  left:450px;
+  background-color:grey;
+}
+#box-5
+{ width:411px;
+  height:120px;
+  border:20px solid black;
+  position:absolute;
+  top:370px;
+  background-color:grey;
+}
+#bjp,#cong,#cpim,#tmc,#aap
+{ width:80px;
+  height:80px;
+  position:absolute;
+  top:20px;
+  left:140px;
+  z-index:1;
+}
+#cong1
+{ width:120px;
+  height:120px;
+}
+#c1,#c2,#c3,#c4,#c5
+{ position:absolute;
+  top:30px;
+  left:230px;
+  width:50px;
+  height:50px;
+  border-radius:100px;
+  background-color:white;
+}
+#b1,#b2,#b3,#b4,#b5
+{ position:absolute;
+  top:40px;
+  left:305px;
+  width:100px;
+  height:30px;
+  border-radius:100px;
+  background-color:red;
+  border:2px solid red;
+}
+#title
+{ left:200px;
+  position:absolute;
+  font-size:65px;
+  top:-40px;
+
+}
+#title1
+{ left:30px;
+  position:absolute;
+  font-size:45px;
+  top:10px;
+}
+#show
+{ width:400px;
+  height:500px;
+  background-color:white;
+  position:absolute;
+  left:450px;
+  top:50px;
+  border-radius:20%;
+  border:10px solid black;
+  display:none;
+}
+#rao
+{width:300px;
+  height:200px;
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+#screen
+{width:300px;
+  height:200px;
+  border:20px solid black;
+  position:absolute;
+  top:120px;
+  background-color:grey;
+  left:30px;
+  display:none;
+}
+}

@@ -1,3 +1,6 @@
+*{
+  font-family:Arial,sans-serif;
+}
 #play3
 {width:250px;
   height:100px;
@@ -103,13 +106,13 @@
   background-color:grey;
 }
 #title
-{ left:260px;
+{ left:270px;
   position:absolute;
   font-size:65px;
   top:-40px;
 }
 #title1
-{ left:170px;
+{ left:190px;
   position:absolute;
   font-size:65px;
   top:10px;
